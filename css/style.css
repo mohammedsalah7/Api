@@ -1,0 +1,153 @@
+
+body{
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: #121212;
+}
+
+.image{
+    
+    width: 150px;
+    height: 150px;
+    margin: 10px ;
+   
+}
+.image:hover{
+    transform: scale(2,2);
+}
+
+#imgArea{
+    padding: 10px;
+   margin-top: -60px;
+   margin-left: 120px;
+    width: 77%;
+    top: 100px;
+    left: 70px;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+h1{
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+#contanier{
+    margin-top: 50px;
+    width: 60%;
+    height: 170px;
+    background-color:#0db7c5;
+    border: 1px solid black;
+    position: relative;
+    left: 20%;
+    border-radius: 100px;
+}
+input[type=number]{
+    appearance: textfield;
+}
+#search{
+    border: 1px solid black;
+    border-radius: 20px;
+    font-size: 15px; 
+}
+
+#submit{
+    padding: 10px;
+    width: 150px;
+    margin-left: 10px;
+    background-color:#136ad5;
+    font-size: 15px;
+    font-weight:bold;
+    border: 1px solid black;
+    border-radius: 6px;
+    cursor: pointer;
+}
+#remove{
+    padding: 10px;
+    width: 150px;
+    background-color: #d9534f;
+    font-size: 15px;
+    font-weight:bold;
+    border: 1px solid black;
+    border-radius: 6px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+#form{
+    padding: 5px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+  
+}
+
+.color{
+    
+    display: flex;
+    flex-wrap: wrap;
+    width: 70px; 
+    position: absolute;
+    top:40px;
+    left: 1290px;
+    padding: 12px;
+}
+
+#fristColor{
+    background-color: #ffc300;
+    height: 20px;
+    border: 1px solid white;
+    border-radius: 50%;
+    padding: 15px;
+    margin: 5px;
+    cursor: pointer;
+}
+#secondColor{
+    background-color:#6ab26c;
+    height: 20px;
+    border: 1px solid white;
+    border-radius: 50%;
+    padding: 15px;
+    margin: 5px;
+    cursor: pointer;
+}
+
+#theredColor{
+    background-color: #91eec1;
+    height: 20px;
+    border: 1px solid white;
+    border-radius: 50%;
+    padding: 15px;
+    margin: 5px;
+    cursor: pointer;
+}
+#fourthColor{
+    background-color: #00bec3;
+    height: 20px;
+    border: 1px solid white;
+    border-radius: 50%;
+    padding: 15px;
+    margin: 5px;
+    cursor: pointer;
+}
+
+#fivethColor{
+    background-color: #94ecff;
+    height: 20px;
+    border: 1px solid white;
+    border-radius: 50%;
+    padding: 15px;
+    margin: 5px;
+    cursor: pointer;
+}
+#hint{
+    
+    font-size: 10px;
+    color: black;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    right: 5px;
+}
