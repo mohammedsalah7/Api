@@ -13,7 +13,8 @@ form.addEventListener('submit', e =>{
     e.preventDefault();
      const searchVal = search.value;
      console.log(searchVal)
-     fetch(`http://picsum.photos/id/${searchVal}/info` ,{
+     fetch(`https://picsum.photos/id/${searchVal}/info` ,{
+
             method: 'GET',
             credentials:'same-origin',
             headers:{
