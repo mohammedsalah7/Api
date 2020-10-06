@@ -1,6 +1,6 @@
 const search = document.querySelector('#search');
 const form = document.querySelector('#form');
-const removeBtn = document.querySelector('#remove')
+const removeBtn = document.querySelector('#remove');
 const imgArea = document.querySelector('#imgArea');
 const contanier = document.querySelector('#contanier');
 const firstBtn = document.querySelector('#fristColor');
@@ -33,7 +33,7 @@ form.addEventListener('submit', e =>{
 });
 
 removeBtn.addEventListener('click' ,()=>{
-    as.textContent='';
+    imgArea.textContent='';
     search.value='';
 })
 
